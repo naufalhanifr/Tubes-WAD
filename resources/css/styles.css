@@ -1,0 +1,166 @@
+html {
+    scroll-behavior: smooth;
+}
+/* navbar */
+header .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+.nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    color: white !important;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 700;
+
+    letter-spacing: 3px;
+}
+.navbar-nav {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.btn {
+    height: 50px;
+    width: 200px;
+}
+.txt-button {
+    line-height: 35px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+}
+.dropdown-menu {
+    width: 200px;
+}
+/* penutup navbar */
+
+/* sesi home */
+home .container-fluid {
+    background-color: #2a4d69;
+    padding-top: 100px;
+}
+.header_home {
+    padding-top: 12rem;
+}
+.judul_home {
+    color: white;
+    font-size: 38px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 800;
+}
+home h5 {
+    color: #a4a4a4;
+    font-size: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+}
+home .card-deck {
+    background-color: transparent;
+    padding-top: 100px;
+    width: 1500px;
+    padding-bottom: 20rem;
+}
+home .card-img-top {
+    height: 280px;
+    object-fit: cover;
+    width: 100%;
+}
+home .card {
+    background-color: transparent;
+}
+/* penutup sesi home */
+
+/* sesi about us */
+aboutus .judul_aboutus {
+    margin-top: 120px;
+    font-size: 36px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 800;
+}
+aboutus .card {
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+aboutus .card-img-top {
+    margin-top: 60px;
+}
+aboutus .card-title {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+aboutus .card-text {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+}
+/* penutup sesi about us */
+
+/* sesi contact */
+contact .container {
+    height: 1000px;
+    margin-top: 100px;
+}
+contact .card {
+    background-color: white !important;
+    margin-top: 350px;
+    max-height: 350px !important;
+    border-radius: 20px;
+    margin-top: 500px;
+}
+contact .card-title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -60px;
+    width: 300px;
+    height: 80px;
+}
+contact h5 {
+    padding-top: 20px;
+    font-size: 32px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+contact .aa {
+    margin-right: 110px;
+}
+contact .bb {
+    margin-left: 110px;
+}
+contact .card-img-top2 {
+    margin-top: -10px;
+}
+contact .h6 {
+    margin-top: 23px;
+}
+contact h6 {
+    margin-top: 10px;
+}
+contact a {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+}
+/* penutup sesi contact */
+
+.wave {
+    max-width: 100%;
+    max-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: -1950px;
+}
